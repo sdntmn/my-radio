@@ -1,17 +1,5 @@
 export const potok = [
   {
-    id: "62ba0c283ca1f692853ebe81",
-    name: "Гомель FM",
-    url: "http://s1.radioheart.ru:8001/radiogomelfm",
-    img: "https://gomelstreet.by/wp-content/uploads/2016/08/radio-gomel-fm-ispolnilos.jpg",
-  },
-  {
-    id: "62ba0c283ca1f692853ebe88",
-    name: "Радио ГОМЕЛЬ-ПЛЮС 103.7FM",
-    url: "http://s1.radioheart.ru:8001/radiogomel",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
     id: "62ba0c283ca1f692853ebe93",
     name: "Bigtunesradio - trance",
     url: "http://bigtunesradio.com:8000/trance.mp3?type=.mp3/;stream.mp3",
@@ -798,12 +786,7 @@ export const potok = [
     url: "https://str.pcradio.ru/one_highvolt-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec1be",
-    name: "1.FM Italia On Air",
-    url: "https://str.pcradio.ru/one_italia-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec1bf",
     name: "1.FM Jamz",
@@ -2175,12 +2158,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Beyonce-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec2d1",
-    name: "BFBS Radio UK",
-    url: "https://str.pcradio.ru/bfbs_radio_uk-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec2d2",
     name: "BHeins – Meine Hitgarantie",
@@ -2739,12 +2717,7 @@ export const potok = [
     url: "https://str.pcradio.ru/capital_fm-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec32f",
-    name: "Capital Xtra",
-    url: "https://str.pcradio.ru/capital_xtra_uk-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec330",
     name: "Cardigans",
@@ -3321,12 +3294,7 @@ export const potok = [
     url: "https://str.pcradio.ru/cyber_vybez-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec390",
-    name: "Damar Türk 34",
-    url: "https://str.pcradio.ru/damar_turk34-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec391",
     name: "Dance 100 Parar",
@@ -4023,12 +3991,7 @@ export const potok = [
     url: "https://str.pcradio.ru/discovertrance_com-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec405",
-    name: "Dismuke",
-    url: "https://str.pcradio.ru/dismuke_radio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec406",
     name: "DJ BoBo",
@@ -4827,12 +4790,7 @@ export const potok = [
     url: "https://str.pcradio.ru/euroradio_soro-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec48b",
-    name: "Euroradio FM - Толькі BY",
-    url: "https://str.pcradio.ru/euroradio_by-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec48c",
     name: "Eurovision Radio",
@@ -5871,12 +5829,7 @@ export const potok = [
     url: "https://str.pcradio.ru/guns_n_roses-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec539",
-    name: "Happy Radio",
-    url: "https://str.pcradio.ru/happy_radio_ukr-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec53a",
     name: "Happyday Newage Radio COOOOL",
@@ -6951,18 +6904,7 @@ export const potok = [
     url: "https://str.pcradio.ru/kissfm_com_au-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec5ed",
-    name: "Kiss FM Ukraine",
-    url: "https://str.pcradio.ru/kissfm_main-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec5ee",
-    name: "Kiss FM Ukrainian",
-    url: "https://str.pcradio.ru/kissfm_ukr-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec5ef",
     name: "Kiss FM West Coast",
@@ -7581,30 +7523,7 @@ export const potok = [
     url: "https://str.pcradio.ru/lounge_chillout2-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec656",
-    name: "Lounge FM (Киев)",
-    url: "https://str.pcradio.ru/loungefm_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec657",
-    name: "Lounge FM (Киев) - Acoustic",
-    url: "https://str.pcradio.ru/loungefm_ua_acoustic-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec658",
-    name: "Lounge FM (Киев) - Chillout",
-    url: "https://str.pcradio.ru/loungefm_ua_chill-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec659",
-    name: "Lounge FM (Киев) - Terrace",
-    url: "https://str.pcradio.ru/loungefm_ua_terrace-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec65a",
     name: "Lounge FM 96",
@@ -8139,12 +8058,7 @@ export const potok = [
     url: "https://str.pcradio.ru/miradionk_com-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec6b3",
-    name: "Mix FM (Киев)",
-    url: "https://str.pcradio.ru/mixfm_com_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec6b4",
     name: "Mix FM (Никосия)",
@@ -8157,12 +8071,7 @@ export const potok = [
     url: "https://str.pcradio.ru/mixfmonline_ru-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec6b6",
-    name: "7 (Рига)",
-    url: "https://str.pcradio.ru/mixfm_riga-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec6b7",
     name: "Mix Megapol",
@@ -8757,30 +8666,7 @@ export const potok = [
     url: "https://str.pcradio.ru/nrj_norge-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec71a",
-    name: "NRJ Украина",
-    url: "https://str.pcradio.ru/nrj_in_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec71b",
-    name: "NRJ Украина - All Hits",
-    url: "https://str.pcradio.ru/nrjukr_allhits-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec71c",
-    name: "NRJ Украина - Hot 40",
-    url: "https://str.pcradio.ru/nrjukr_hot40-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec71d",
-    name: "NRJ Украина - Party Hits",
-    url: "https://str.pcradio.ru/nrjukr_party-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec71e",
     name: "NRK Alltid Nyheter",
@@ -9669,18 +9555,7 @@ export const potok = [
     url: "https://str.pcradio.ru/power_dance_tr-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec7b2",
-    name: "Power FM (Киев)",
-    url: "https://str.pcradio.ru/powerfm_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec7b3",
-    name: "Power FM (Стамбул)",
-    url: "https://str.pcradio.ru/power_fm_tr-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec7b4",
     name: "Power Hit Radio (Вильнюс)",
@@ -9975,12 +9850,7 @@ export const potok = [
     url: "https://str.pcradio.ru/pulsradio_trance-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec7e5",
-    name: "Pulzus FM 92.1 (Пульс FM)",
-    url: "https://str.pcradio.ru/pulsefm_ukr-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec7e6",
     name: "Punkrockers-Radio",
@@ -10845,12 +10715,7 @@ export const potok = [
     url: "https://str.pcradio.ru/radioe_net-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec876",
-    name: "Radio EgoЇсти",
-    url: "https://str.pcradio.ru/mjoy_egoradio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec877",
     name: "Radio Eins",
@@ -10887,12 +10752,7 @@ export const potok = [
     url: "https://str.pcradio.ru/euroherz_de-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec87d",
-    name: "Radio Evangelo Centro Italia",
-    url: "https://str.pcradio.ru/evangelo-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec87e",
     name: "Radio Eviva",
@@ -10905,12 +10765,7 @@ export const potok = [
     url: "https://str.pcradio.ru/radiof_945-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec880",
-    name: "Radio F 94.5 - Coppa Italiana",
-    url: "https://str.pcradio.ru/radiof_945_ci-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec881",
     name: "Radio F 94.5 - Made in Germany",
@@ -11115,24 +10970,7 @@ export const potok = [
     url: "https://str.pcradio.ru/radio_in-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec8a3",
-    name: "Radio Italia Canada",
-    url: "https://str.pcradio.ru/italia_canada-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec8a4",
-    name: "Radio Italia Stoccarda",
-    url: "https://str.pcradio.ru/italia_stoccarda-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec8a5",
-    name: "Radio Italian Music",
-    url: "https://str.pcradio.ru/italia_sydney-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec8a6",
     name: "Radio Italy Live",
@@ -11535,36 +11373,7 @@ export const potok = [
     url: "https://str.pcradio.ru/radioroks_ua-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec8e9",
-    name: "Radio ROKS - Hard'n'Heavy",
-    url: "https://str.pcradio.ru/roks_ukr_hard-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec8ea",
-    name: "Radio ROKS - Новый рок",
-    url: "https://str.pcradio.ru/roks_ukr_newrock-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec8eb",
-    name: "Radio ROKS - Рок-баллады",
-    url: "https://str.pcradio.ru/roks_ukr_ballad-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec8ec",
-    name: "Radio ROKS - Украинский рок",
-    url: "https://str.pcradio.ru/roks_ukr_ukrock-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ec8ed",
-    name: "Radio Romania (Яссы)",
-    url: "https://str.pcradio.ru/romania_iasi-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec8ee",
     name: "Radio Romania Actualitati",
@@ -12891,12 +12700,7 @@ export const potok = [
     url: "https://str.pcradio.ru/rmc_hits-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ec9cb",
-    name: "RMC Italia",
-    url: "https://str.pcradio.ru/rmc_italia-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ec9cc",
     name: "RMC Kay Kay",
@@ -14373,12 +14177,7 @@ export const potok = [
     url: "https://str.pcradio.ru/slobodny_vysielac-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecac2",
-    name: "Slow Türk FM",
-    url: "https://str.pcradio.ru/slow_turkfm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecac3",
     name: "Sláger FM",
@@ -15285,12 +15084,7 @@ export const potok = [
     url: "https://str.pcradio.ru/rock_solidradio-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecb5a",
-    name: "The UK 1940s Radio",
-    url: "https://str.pcradio.ru/the1940sukradio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecb5b",
     name: "This Is Radio",
@@ -15555,18 +15349,7 @@ export const potok = [
     url: "https://str.pcradio.ru/u2-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecb87",
-    name: "UAFM",
-    url: "https://str.pcradio.ru/uafm_org-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecb88",
-    name: "Ukrainian Radio in Chicago",
-    url: "https://str.pcradio.ru/urcradio_com-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecb89",
     name: "Ulitka",
@@ -15783,66 +15566,7 @@ export const potok = [
     url: "https://str.pcradio.ru/virgin_france-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecbad",
-    name: "Virgin Radio Italia - '70",
-    url: "https://str.pcradio.ru/virgin_it_70-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbae",
-    name: "Virgin Radio Italia - '80",
-    url: "https://str.pcradio.ru/virgin_it_80-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbaf",
-    name: "Virgin Radio Italia - Alternative",
-    url: "https://str.pcradio.ru/virgin_it_alternative-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbb0",
-    name: "Virgin Radio Italia - Hard Rock",
-    url: "https://str.pcradio.ru/virgin_it_hard-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbb1",
-    name: "Virgin Radio Italia - On-Air",
-    url: "https://str.pcradio.ru/virgin_it_onair-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbb2",
-    name: "Virgin Radio Italia - Rock Hits",
-    url: "https://str.pcradio.ru/virgin_it_rohits-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbb3",
-    name: "Virgin Radio Italia - Rock Party",
-    url: "https://str.pcradio.ru/virgin_it_roparty-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbb4",
-    name: "Virgin Radio Türkiye",
-    url: "https://str.pcradio.ru/virgin_radio_turk-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbb5",
-    name: "Vision Radio UK",
-    url: "https://str.pcradio.ru/visionradio_uk-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbb6",
-    name: "7 (Пьятра-Нямц)",
-    url: "https://str.pcradio.ru/vivafm_ro-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecbb7",
     name: "Vocal Chillout",
@@ -15879,276 +15603,7 @@ export const potok = [
     url: "https://str.pcradio.ru/voiceofvan_net-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecbbd",
-    name: "Volksmusikpur",
-    url: "https://str.pcradio.ru/volksmusikpur_radio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbbe",
-    name: "Vox Rádió",
-    url: "https://str.pcradio.ru/voxfm_ro-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbbf",
-    name: "VRT Studio Brussel",
-    url: "https://str.pcradio.ru/stubru_be-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbc0",
-    name: "W Radio",
-    url: "https://str.pcradio.ru/wradio_com_mx-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbc1",
-    name: "W Radio México",
-    url: "https://str.pcradio.ru/w_radio_mexico-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbc2",
-    name: "Wacken Radio",
-    url: "https://str.pcradio.ru/wacken_radio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbc3",
-    name: "WalconFM",
-    url: "https://str.pcradio.ru/walcon_fm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbc4",
-    name: "Wargaming FM - Rock",
-    url: "https://str.pcradio.ru/wargaming_fm_4-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbc5",
-    name: "Wargaming FM - Trance",
-    url: "https://str.pcradio.ru/wargaming_fm_3-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbc6",
-    name: "Wargaming FM - Основной",
-    url: "https://str.pcradio.ru/wargaming_fm_1-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbc7",
-    name: "Wargaming FM - Основной (только музыка)",
-    url: "https://str.pcradio.ru/wargaming_fm_2-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbc8",
-    name: "Wartburg Radio 96.5 FM",
-    url: "https://str.pcradio.ru/wartburg_radio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbc9",
-    name: "Wasteland Radio",
-    url: "https://str.pcradio.ru/wasteland_radio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbca",
-    name: "Waterstad FM",
-    url: "https://str.pcradio.ru/waterstad_fm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbcb",
-    name: "Wave Radio Club",
-    url: "https://str.pcradio.ru/waveradio_isr-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbcc",
-    name: "WBCQ The Planet",
-    url: "https://str.pcradio.ru/wbcq_planet-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbcd",
-    name: "5 The Night",
-    url: "https://str.pcradio.ru/wbjb_905-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbce",
-    name: "WBWC 88.3 FM - The Sting",
-    url: "https://str.pcradio.ru/wbwc_883-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbcf",
-    name: "WCSB 89.3",
-    url: "https://str.pcradio.ru/wcsb_893-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbd0",
-    name: "WDR 2",
-    url: "https://str.pcradio.ru/wdr2_de-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbd1",
-    name: "WDR 3",
-    url: "https://str.pcradio.ru/wdr3_de-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbd2",
-    name: "WDR 4",
-    url: "https://str.pcradio.ru/wdr4radio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbd3",
-    name: "WDR 5",
-    url: "https://str.pcradio.ru/wdr5_de-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbd4",
-    name: "WDR COSMO",
-    url: "https://str.pcradio.ru/wdr_cosmo-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbd5",
-    name: "West Coast Golden Radio",
-    url: "https://str.pcradio.ru/west_coast_golden-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbd6",
-    name: "WFUV",
-    url: "https://str.pcradio.ru/wfuv_live-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbd7",
-    name: "WHUS 91.7 FM",
-    url: "https://str.pcradio.ru/whus_917-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbd8",
-    name: "WIDE radio",
-    url: "https://str.pcradio.ru/itswide_com-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbd9",
-    name: "WikiSpeak",
-    url: "https://str.pcradio.ru/radio_wikispeak-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbda",
-    name: "Winter FM",
-    url: "https://str.pcradio.ru/winterfm_ru-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbdb",
-    name: "Within Temptation",
-    url: "https://str.pcradio.ru/Within_Temptation-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbdc",
-    name: "WJCU 88.7 FM",
-    url: "https://str.pcradio.ru/wjcu_887-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbdd",
-    name: "WKAR",
-    url: "https://str.pcradio.ru/wkar_org-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbde",
-    name: "WLVR 91.3 FM",
-    url: "https://str.pcradio.ru/wlvr_913-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbdf",
-    name: "WMSC 90.3 FM",
-    url: "https://str.pcradio.ru/wmsc_903-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbe0",
-    name: "WMSE Radio 91.7 FM",
-    url: "https://str.pcradio.ru/wmse_917-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbe1",
-    name: "WNYC News station",
-    url: "https://str.pcradio.ru/wnyc-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbe2",
-    name: "WQXR Q2 Music",
-    url: "https://str.pcradio.ru/wqxr_q2-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbe3",
-    name: "WRN English Europe",
-    url: "https://str.pcradio.ru/wrn_europe_eng-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbe4",
-    name: "WUCF",
-    url: "https://str.pcradio.ru/wucf-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbe5",
-    name: "WXPN",
-    url: "https://str.pcradio.ru/xpn_org-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbe6",
-    name: "Wüste Welle",
-    url: "https://str.pcradio.ru/wueste_welle-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbe7",
-    name: "X-Clusief",
-    url: "https://str.pcradio.ru/exclusieffmcom-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbe8",
-    name: "Xanthi Deejay",
-    url: "https://str.pcradio.ru/xanthi_radio_deejay-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbe9",
-    name: "Xclusive One Drop Media",
-    url: "https://str.pcradio.ru/xclusive_one_drop-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecbea",
     name: "xRadio",
@@ -16173,114 +15628,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Yello-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecbee",
-    name: "Yerevan FM 101.9",
-    url: "https://str.pcradio.ru/yerevanfm_am-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbef",
-    name: "Yerevan Nights",
-    url: "https://str.pcradio.ru/erevan_nights-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbf0",
-    name: "Yeridasartoutian Tsayne",
-    url: "https://str.pcradio.ru/yeridasartoutian_tsayne-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbf1",
-    name: "Yes Radio",
-    url: "https://str.pcradio.ru/yesradio_it-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbf2",
-    name: "Yesterday-Radio",
-    url: "https://str.pcradio.ru/yesterdayradio_de-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbf3",
-    name: "Yiruma",
-    url: "https://str.pcradio.ru/Yurima-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbf4",
-    name: "Yoga Chill",
-    url: "https://str.pcradio.ru/yoga_chill-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbf5",
-    name: "Yoga Radio",
-    url: "https://str.pcradio.ru/yogaradio_fm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbf6",
-    name: "You FM",
-    url: "https://str.pcradio.ru/youfm_de-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbf7",
-    name: "Ysa Ferrer",
-    url: "https://str.pcradio.ru/Ysa_Ferrer-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbf8",
-    name: "Z Electro",
-    url: "https://str.pcradio.ru/zelectro_pcradio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbf9",
-    name: "Z-Radio 106.1 FM (Житомир)",
-    url: "https://str.pcradio.ru/zradio_zhyto-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbfa",
-    name: "ZANJ Radio",
-    url: "https://str.pcradio.ru/zanj_org-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbfb",
-    name: "Zdob si Zdub",
-    url: "https://str.pcradio.ru/Zdob_si_Zdub-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbfc",
-    name: "Zikkurat-Radio",
-    url: "https://str.pcradio.ru/zikkurat-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbfd",
-    name: "Ziniu Radijas",
-    url: "https://str.pcradio.ru/ziniur_lt-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbfe",
-    name: "Zutokine",
-    url: "https://str.pcradio.ru/Zutokine-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecbff",
-    name: "Záhorácke Rádio",
-    url: "https://str.pcradio.ru/zahoracke_rad-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc00",
     name: "Zефир FM",
@@ -16293,72 +15641,21 @@ export const potok = [
     url: "https://str.pcradio.ru/a_studio-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc02",
-    name: "Авсим Радио",
-    url: "https://str.pcradio.ru/avsim_ru-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc03",
     name: "АвтоРадио",
     url: "https://str.pcradio.ru/avtoradio-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc04",
-    name: "Авторадио (Красноярск)",
-    url: "https://str.pcradio.ru/avto_krasno-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc05",
-    name: "АвтоРадио (Минск)",
-    url: "https://str.pcradio.ru/avtoradio_by-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc06",
-    name: "Авторадио (Нижний Новгород)",
-    url: "https://str.pcradio.ru/avtoradio_nn-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc07",
-    name: "Авторадио (Омск)",
-    url: "https://str.pcradio.ru/avtoradio_omsk-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc08",
-    name: "Авторадио (Санкт-Петербург)",
-    url: "https://str.pcradio.ru/avtoradio_spb-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc09",
-    name: "Авторадио Казахстан",
-    url: "https://str.pcradio.ru/avtoradiokz-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc0a",
-    name: "Авторадио Украина (Киев)",
-    url: "https://str.pcradio.ru/avtoradio_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc0b",
     name: "Агата Кристи",
     url: "https://str.pcradio.ru/Agata_Kristi-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc0c",
-    name: "Азовская волна",
-    url: "https://str.pcradio.ru/azovska_wave-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc0d",
     name: "Аквариум",
@@ -16389,12 +15686,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Akunin_Erast-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc12",
-    name: "Акунин - Провинціальный детективъ",
-    url: "https://str.pcradio.ru/akunin_pelagia-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc13",
     name: "Акунин - Смерть на брудершафт",
@@ -16503,12 +15795,7 @@ export const potok = [
     url: "https://str.pcradio.ru/andrey_gubin-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc25",
-    name: "Андрей Князев (КняZz)",
-    url: "https://str.pcradio.ru/knyazz-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc26",
     name: "Ани Лорак",
@@ -16557,48 +15844,14 @@ export const potok = [
     url: "https://str.pcradio.ru/aplus_deep-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc2e",
-    name: "Аплюс Rock",
-    url: "https://str.pcradio.ru/aplus_rock-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc2f",
-    name: "Аристократи",
-    url: "https://str.pcradio.ru/aristocrats-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc30",
     name: "Ария",
     url: "https://str.pcradio.ru/Aria-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc31",
-    name: "Аркадий Северный",
-    url: "https://str.pcradio.ru/Arkadij_Severnyj-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc32",
-    name: "Армейские песни 18+",
-    url: "https://str.pcradio.ru/Armejskie_pesni-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc33",
-    name: "Армик",
-    url: "https://str.pcradio.ru/Armik-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc34",
-    name: "Армия FM",
-    url: "https://str.pcradio.ru/armyfm_ukr-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc35",
     name: "Архив Радио России",
@@ -16623,30 +15876,14 @@ export const potok = [
     url: "https://str.pcradio.ru/atmoradio_ru-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc39",
-    name: "АукцЫон",
-    url: "https://str.pcradio.ru/auktsyon-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc3a",
-    name: "Ашкадар",
-    url: "https://str.pcradio.ru/ashkadar-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc3b",
     name: "Балтийский Берег",
     url: "https://str.pcradio.ru/baltiyskiy_bereg-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc3c",
-    name: "Балтком (Рига)",
-    url: "https://str.pcradio.ru/baltkom_riga-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc3d",
     name: "Банд’Эрос",
@@ -16671,12 +15908,7 @@ export const potok = [
     url: "https://str.pcradio.ru/beloe_radio-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc41",
-    name: "Беломорканал",
-    url: "https://str.pcradio.ru/Belomorkanal-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc42",
     name: "Белый лебедь",
@@ -16707,48 +15939,14 @@ export const potok = [
     url: "https://str.pcradio.ru/bim_radio1028-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc47",
-    name: "Блат FM 10",
-    url: "https://str.pcradio.ru/Blat_FM10-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc48",
-    name: "Блат FM 7",
-    url: "https://str.pcradio.ru/Blat_FM7-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc49",
-    name: "Блат FM 8",
-    url: "https://str.pcradio.ru/Blat_FM8-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc4a",
-    name: "Блат FM 9",
-    url: "https://str.pcradio.ru/Blat_FM9-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc4b",
-    name: "Блатрадио",
-    url: "https://str.pcradio.ru/Blatradio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc4c",
     name: "Блестящие",
     url: "https://str.pcradio.ru/blestyashie-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc4d",
-    name: "Блиск FM 106.6",
-    url: "https://str.pcradio.ru/blyskfm_chern-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc4e",
     name: "Божья коровка",
@@ -16785,12 +15983,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Bravo-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc54",
-    name: "Брати Гадюкіни",
-    url: "https://str.pcradio.ru/braty_gadyukiny-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc55",
     name: "Братья Грим",
@@ -16809,18 +16002,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Bumboks-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc58",
-    name: "Бурлеск FM",
-    url: "https://str.pcradio.ru/burlesquefm_com-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc59",
-    name: "Бутырка",
-    url: "https://str.pcradio.ru/Butirka-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc5a",
     name: "БФМ Радио (Нью Йорк)",
@@ -16845,42 +16027,21 @@ export const potok = [
     url: "https://str.pcradio.ru/Valerija-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc5e",
-    name: "Ванда FM",
-    url: "https://str.pcradio.ru/wandafm_ukr-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc5f",
     name: "Варвара",
     url: "https://str.pcradio.ru/Varvara-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc60",
-    name: "Ватан",
-    url: "https://str.pcradio.ru/vatan-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc61",
-    name: "Ватан Cедасы 99.5 FM",
-    url: "https://str.pcradio.ru/vatan_sedasy-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc62",
     name: "Вахтанг Кикабидзе",
     url: "https://str.pcradio.ru/Vahtang_Kikabidze-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc63",
-    name: "Веда-радио",
-    url: "https://str.pcradio.ru/vedaradio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc64",
     name: "Вежа",
@@ -17013,12 +16174,7 @@ export const potok = [
     url: "https://str.pcradio.ru/vladimir_kuzmin-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc7a",
-    name: "1 FM (Таллинн)",
-    url: "https://str.pcradio.ru/volna_tallinn-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc7b",
     name: "Волна FM",
@@ -17031,30 +16187,14 @@ export const potok = [
     url: "https://str.pcradio.ru/volna_schastia-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc7d",
-    name: "Волхов-VFM",
-    url: "https://str.pcradio.ru/volhov_vfm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc7e",
     name: "Волшебное Радио",
     url: "https://str.pcradio.ru/volshebnoe_radio-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc7f",
-    name: "Вопли Видоплясова",
-    url: "https://str.pcradio.ru/vopli_vv-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc80",
-    name: "Воровайки",
-    url: "https://str.pcradio.ru/Vorovaiki-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc81",
     name: "Воскресение",
@@ -17067,18 +16207,7 @@ export const potok = [
     url: "https://str.pcradio.ru/vostok_rossii-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc83",
-    name: "Всемирное Одесское радио",
-    url: "https://str.pcradio.ru/world_odessa-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc84",
-    name: "3 (Костомукша)",
-    url: "https://str.pcradio.ru/vtorayavolna_1023-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc85",
     name: "Вячеслав Добрынин",
@@ -17109,48 +16238,14 @@ export const potok = [
     url: "https://str.pcradio.ru/himalaya24-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc8a",
-    name: "Глаголъ",
-    url: "https://str.pcradio.ru/glagoll-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc8b",
-    name: "Говорит Майкоп",
-    url: "https://str.pcradio.ru/govorit_maykop-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc8c",
     name: "Говорит Москва",
     url: "https://str.pcradio.ru/govoritmoskva_ru-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc8d",
-    name: "Голос Бирмы",
-    url: "https://str.pcradio.ru/golos_birmy-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc8e",
-    name: "Голос Истины",
-    url: "https://str.pcradio.ru/golos_istiny-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc8f",
-    name: "Голос Надії",
-    url: "https://str.pcradio.ru/golos_nadii-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecc90",
-    name: "Голубые береты",
-    url: "https://str.pcradio.ru/golubye_berety-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc91",
     name: "Гомель FM",
@@ -17223,12 +16318,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Leps-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecc9d",
-    name: "Громадське радіо",
-    url: "https://str.pcradio.ru/hromadske_radio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecc9e",
     name: "Группа Фабрика",
@@ -17295,12 +16385,7 @@ export const potok = [
     url: "https://str.pcradio.ru/jazz_philar-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecca9",
-    name: "Джем FM (Киев)",
-    url: "https://str.pcradio.ru/djemfm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eccaa",
     name: "Диалог",
@@ -17403,24 +16488,14 @@ export const potok = [
     url: "https://str.pcradio.ru/dorozhnoe_rudance-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eccbb",
-    name: "Друга Ріка",
-    url: "https://str.pcradio.ru/druga_rika-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eccbc",
     name: "Другая Астрахань",
     url: "https://str.pcradio.ru/astrdr_com-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eccbd",
-    name: "Дуже радіо 104.3",
-    url: "https://str.pcradio.ru/duzhe_fm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eccbe",
     name: "Душа Кавказа",
@@ -17445,12 +16520,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Djuna-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eccc2",
-    name: "Е! UA Radio",
-    url: "https://str.pcradio.ru/eradio_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eccc3",
     name: "Европа (Волгоград)",
@@ -17523,36 +16593,14 @@ export const potok = [
     url: "https://str.pcradio.ru/evropa_top40-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecccf",
-    name: "Европа Казахстан",
-    url: "https://str.pcradio.ru/evropa_kazakhstan-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853eccd0",
-    name: "Европа Плюс Киев 107.0 FM",
-    url: "https://str.pcradio.ru/europa_fm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853eccd1",
-    name: "ЕкоРадіо",
-    url: "https://str.pcradio.ru/ekoradio_com_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eccd2",
     name: "Елена Ваенга",
     url: "https://str.pcradio.ru/Elena_Vaenga-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eccd3",
-    name: "Емігрантське радіо",
-    url: "https://str.pcradio.ru/emradio_com_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eccd4",
     name: "Жека",
@@ -17571,18 +16619,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Zhenja_Belousov-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eccd7",
-    name: "Житомирська Хвиля",
-    url: "https://str.pcradio.ru/zhyto_hvyl-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853eccd8",
-    name: "Жулдыз FM",
-    url: "https://str.pcradio.ru/zhuldyz_fm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eccd9",
     name: "5 FM",
@@ -17763,12 +16800,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Igra_Slov-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eccf7",
-    name: "Иезекииль 25:17",
-    url: "https://str.pcradio.ru/twenty_five_seventeen-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eccf8",
     name: "Импульс FM",
@@ -17811,12 +16843,7 @@ export const potok = [
     url: "https://str.pcradio.ru/informator_fm-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eccff",
-    name: "Ирина Круг",
-    url: "https://str.pcradio.ru/irina_krug-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd00",
     name: "Искатель",
@@ -17967,12 +16994,7 @@ export const potok = [
     url: "https://str.pcradio.ru/kommersant_ru-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd19",
-    name: "Коммерсантъ FM (Нижний Новгород)",
-    url: "https://str.pcradio.ru/kommersant_nn-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd1a",
     name: "Компот FM",
@@ -17985,36 +17007,7 @@ export const potok = [
     url: "https://str.pcradio.ru/kp_mscow-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd1c",
-    name: "Комсомольская Правда Красноярск",
-    url: "https://str.pcradio.ru/kpradio_kryar-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd1d",
-    name: "Комсомольская правда Новосибирск",
-    url: "https://str.pcradio.ru/kp_nsk-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd1e",
-    name: "Комсомольская правда Санкт-Петербург",
-    url: "https://str.pcradio.ru/kp_spb-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd1f",
-    name: "Комсомольская правда Ставрополь",
-    url: "https://str.pcradio.ru/kpradio_stavropol-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd20",
-    name: "Комсомольская Правда Челябинск",
-    url: "https://str.pcradio.ru/chel_kp_ru-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd21",
     name: "Континенталь",
@@ -18063,60 +17056,14 @@ export const potok = [
     url: "https://str.pcradio.ru/krasno_glavny-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd29",
-    name: "Країна ФМ",
-    url: "https://str.pcradio.ru/krainafm_comua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd2a",
     name: "Крематорий",
     url: "https://str.pcradio.ru/krematoriy-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd2b",
-    name: "КРОК радіо 102.2 FM",
-    url: "https://str.pcradio.ru/krokradio_zt-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd2c",
-    name: "Крым Точка",
-    url: "https://str.pcradio.ru/krym_tochka-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd2d",
-    name: "Кузбасс FM",
-    url: "https://str.pcradio.ru/kuzbass_fm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd2e",
-    name: "Кукрыниксы",
-    url: "https://str.pcradio.ru/Kukryniksy-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd2f",
-    name: "Культура - Беларускае радыё",
-    url: "https://str.pcradio.ru/culture_by-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd30",
-    name: "Кунел",
-    url: "https://str.pcradio.ru/kunelradio_ru-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd31",
-    name: "Курортное радио Крыма (Евпатория)",
-    url: "https://str.pcradio.ru/avtoradio_evpatoria-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd32",
     name: "7 FM",
@@ -18129,12 +17076,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Kuhnja-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd34",
-    name: "Кыргызстан Обондору FM 106.5",
-    url: "https://str.pcradio.ru/obondorukg-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd35",
     name: "Лада FM (Ладыжин)",
@@ -18249,12 +17191,7 @@ export const potok = [
     url: "https://str.pcradio.ru/lore_asha-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd48",
-    name: "Львовская Волна",
-    url: "https://str.pcradio.ru/wrcomua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd49",
     name: "Люба FM",
@@ -18285,12 +17222,7 @@ export const potok = [
     url: "https://str.pcradio.ru/luxfm_ua-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd4e",
-    name: "Люкс ФМ 104.7 (Львов)",
-    url: "https://str.pcradio.ru/luxfm_lviv-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd4f",
     name: "Ляпис Трубецкой",
@@ -18333,12 +17265,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Maks_Fadeev-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd56",
-    name: "Максимум (Киев)",
-    url: "https://str.pcradio.ru/maximum_fm_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd57",
     name: "МанифестЪ",
@@ -18423,30 +17350,7 @@ export const potok = [
     url: "https://str.pcradio.ru/radiomelody_ru-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd65",
-    name: "Мелодія FM (Киев)",
-    url: "https://str.pcradio.ru/radiomelodia_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd66",
-    name: "Мелодія FM - Disco",
-    url: "https://str.pcradio.ru/melodia_disco-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd67",
-    name: "Мелодія FM - Italiano",
-    url: "https://str.pcradio.ru/melodia_italian-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecd68",
-    name: "Мелодія FM - Romantic",
-    url: "https://str.pcradio.ru/melodia_romantic-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd69",
     name: "Мельница",
@@ -18489,12 +17393,7 @@ export const potok = [
     url: "https://str.pcradio.ru/mir_belogorya-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd70",
-    name: "Мир Шансона",
-    url: "https://str.pcradio.ru/mir_shansona-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd71",
     name: "Мираж",
@@ -18663,12 +17562,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Muslim_Magomaev-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd8d",
-    name: "На хвилі Корсуня (Рідне Радіо)",
-    url: "https://str.pcradio.ru/nahvyli_korsun-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd8e",
     name: "На-На",
@@ -18729,12 +17623,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Nautilus-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecd98",
-    name: "Наше Радио (Киев)",
-    url: "https://str.pcradio.ru/nashe_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecd99",
     name: "Наше радио (Москва)",
@@ -18783,12 +17672,7 @@ export const potok = [
     url: "https://str.pcradio.ru/nashestvie_ru-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecda1",
-    name: "Незалежність",
-    url: "https://str.pcradio.ru/nezalezhnist-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecda2",
     name: "Неслучайное Радио",
@@ -19155,12 +18039,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Propaganda-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecddf",
-    name: "Просто Ради.о - Киев",
-    url: "https://str.pcradio.ru/prosto_radio_kiev-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecde0",
     name: "Просто Ради.о - Одесса",
@@ -19395,12 +18274,7 @@ export const potok = [
     url: "https://str.pcradio.ru/radiorecord_ru-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece07",
-    name: "Радио Relax (Украина)",
-    url: "https://str.pcradio.ru/radiorelax_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece08",
     name: "Радио Relax - Relax International",
@@ -19629,12 +18503,7 @@ export const potok = [
     url: "https://str.pcradio.ru/radio_kartina_tv-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece2e",
-    name: "Радио Киев 98 FM",
-    url: "https://str.pcradio.ru/radiokiev_98-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece2f",
     name: "Радио Классик",
@@ -19695,12 +18564,7 @@ export const potok = [
     url: "https://str.pcradio.ru/radiomaria_ru-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece39",
-    name: "Радио Мария (Киев)",
-    url: "https://str.pcradio.ru/radiomaria_org_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece3a",
     name: "Радио Мегахит",
@@ -19785,12 +18649,7 @@ export const potok = [
     url: "https://str.pcradio.ru/piligrim_online-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece48",
-    name: "Радио Прага (Radio Praha)",
-    url: "https://str.pcradio.ru/praha_cz-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece49",
     name: "Радио Приднестровья (Тирасполь)",
@@ -19803,30 +18662,14 @@ export const potok = [
     url: "https://str.pcradio.ru/nature_radio-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece4b",
-    name: "Радио Проводач (Provodach)",
-    url: "https://str.pcradio.ru/provoda_ch-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece4c",
     name: "Радио Радио",
     url: "https://str.pcradio.ru/radioradio_ru-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece4d",
-    name: "Радио Рауан 104 FM",
-    url: "https://str.pcradio.ru/rauan_104-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece4e",
-    name: "Радио Рация (Радыё Рацыя)",
-    url: "https://str.pcradio.ru/radio_racyja-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece4f",
     name: "Радио Рекорд (Саратов)",
@@ -20031,18 +18874,7 @@ export const potok = [
     url: "https://str.pcradio.ru/omsk_3-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece71",
-    name: "Радио-Витебск",
-    url: "https://str.pcradio.ru/vtv_by-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece72",
-    name: "Радио-Ливны",
-    url: "https://str.pcradio.ru/radio_livny-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece73",
     name: "Радио-Н (Новочеркасск)",
@@ -20103,66 +18935,7 @@ export const potok = [
     url: "https://str.pcradio.ru/radius_fm-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece7d",
-    name: "Радонеж",
-    url: "https://str.pcradio.ru/radonezh-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece7e",
-    name: "РадыМузыке",
-    url: "https://str.pcradio.ru/rady_muzyke-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece7f",
-    name: "Радыё Relax",
-    url: "https://str.pcradio.ru/relax_by-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece80",
-    name: "Радыё Свабода (Минск)",
-    url: "https://str.pcradio.ru/svaboda_org-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece81",
-    name: "Радіо 10 (Чернівці) 103.2 FM",
-    url: "https://str.pcradio.ru/radio10_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece82",
-    name: "Радіо з Криївки (RzK)",
-    url: "https://str.pcradio.ru/z_kryyivki-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece83",
-    name: "Радіо М",
-    url: "https://str.pcradio.ru/radiom_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece84",
-    name: "Радіо НВ",
-    url: "https://str.pcradio.ru/nv_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece85",
-    name: "Радіо Трек",
-    url: "https://str.pcradio.ru/radiotrek_rv-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece86",
-    name: "Радіо Українська Пісня",
-    url: "https://str.pcradio.ru/ukr_pisnya-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece87",
     name: "Ранетки",
@@ -20181,12 +18954,7 @@ export const potok = [
     url: "https://str.pcradio.ru/redkie_ryby-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece8a",
-    name: "Ретро FM (Киев)",
-    url: "https://str.pcradio.ru/retro_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece8b",
     name: "Ретро FM (Москва)",
@@ -20235,24 +19003,7 @@ export const potok = [
     url: "https://str.pcradio.ru/retrofm_spb-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece93",
-    name: "5 (Рига)",
-    url: "https://str.pcradio.ru/retro_riga-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece94",
-    name: "Ретро FM Украина - Dance",
-    url: "https://str.pcradio.ru/retrofm_ua_dance-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece95",
-    name: "Ретро FM Украина - Romantic Ballads",
-    url: "https://str.pcradio.ru/retrofm_ua_rombal-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece96",
     name: "Рефлекс",
@@ -20271,18 +19022,7 @@ export const potok = [
     url: "https://str.pcradio.ru/Rok_Ostrova-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece99",
-    name: "РОКС (Минск)",
-    url: "https://str.pcradio.ru/roks_minsk-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ece9a",
-    name: "Роксана Радиосы",
-    url: "https://str.pcradio.ru/roksana_radio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece9b",
     name: "Роман Трахтенберг 18+",
@@ -20301,12 +19041,7 @@ export const potok = [
     url: "https://str.pcradio.ru/ruvolna-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ece9e",
-    name: "Русская реклама",
-    url: "https://str.pcradio.ru/rusrek_com-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ece9f",
     name: "Русские Песни",
@@ -20319,12 +19054,7 @@ export const potok = [
     url: "https://str.pcradio.ru/russkij_berlin-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecea1",
-    name: "Русский край",
-    url: "https://str.pcradio.ru/russky_kray-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecea2",
     name: "Русский размер",
@@ -20355,18 +19085,7 @@ export const potok = [
     url: "https://str.pcradio.ru/rusradio-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecea7",
-    name: "Русское (Великий Новгород)",
-    url: "https://str.pcradio.ru/russkoe_vn-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecea8",
-    name: "Русское (Оренбург)",
-    url: "https://str.pcradio.ru/russkoe_oren-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecea9",
     name: "Русское - Детский канал",
@@ -20415,30 +19134,7 @@ export const potok = [
     url: "https://str.pcradio.ru/rusradio_asia-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eceb1",
-    name: "Русское радио Украина (Киев)",
-    url: "https://str.pcradio.ru/rusradio_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853eceb2",
-    name: "Русское радио Украина - Дискотека",
-    url: "https://str.pcradio.ru/rusradio_ua_dance-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853eceb3",
-    name: "Русское радио Украина - Золотой граммофон",
-    url: "https://str.pcradio.ru/rusradio_ua_grammofon-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853eceb4",
-    name: "Самара-Максимум",
-    url: "https://str.pcradio.ru/samara_maksimum_1043-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eceb5",
     name: "Самарское Губернское Радио (Губерния)",
@@ -20457,30 +19153,14 @@ export const potok = [
     url: "https://str.pcradio.ru/svitle_org-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eceb8",
-    name: "Свит FM (Світ ФМ)",
-    url: "https://str.pcradio.ru/svit_fm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853eceb9",
-    name: "Свобода",
-    url: "https://str.pcradio.ru/svoboda-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eceba",
     name: "Свое FM",
     url: "https://str.pcradio.ru/svoe_fm-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecebb",
-    name: "Свое радио",
-    url: "https://str.pcradio.ru/svoe_radio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecebc",
     name: "Своя Волна",
@@ -20625,18 +19305,7 @@ export const potok = [
     url: "https://str.pcradio.ru/sputnik_ufa-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eced4",
-    name: "Спутник в Крыму",
-    url: "https://str.pcradio.ru/transmradio_ru-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853eced5",
-    name: "Сталіца",
-    url: "https://str.pcradio.ru/radiostalica_by-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eced6",
     name: "Старое Доброе Радио",
@@ -20685,54 +19354,21 @@ export const potok = [
     url: "https://str.pcradio.ru/strana_spb-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecede",
-    name: "9",
-    url: "https://str.pcradio.ru/strana_fm89_9-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecedf",
     name: "Стрелки",
     url: "https://str.pcradio.ru/strelki-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecee0",
-    name: "Стрий FM",
-    url: "https://str.pcradio.ru/stryi_fm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecee1",
     name: "Стругацкие - Аудиоспектакли",
     url: "https://str.pcradio.ru/strugat_audioshows-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecee2",
-    name: "Сябры",
-    url: "https://str.pcradio.ru/syabry-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecee3",
-    name: "Сяйво",
-    url: "https://str.pcradio.ru/syaivo-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecee4",
-    name: "Такт",
-    url: "https://str.pcradio.ru/rradiotakt_com_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecee5",
-    name: "Танок на майдані Конґо (ТНМК)",
-    url: "https://str.pcradio.ru/tnmk_tanok_na_maydani-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecee6",
     name: "Танцевальная Станция",
@@ -20763,24 +19399,14 @@ export const potok = [
     url: "https://str.pcradio.ru/tarakany-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eceeb",
-    name: "5 (Казань)",
-    url: "https://str.pcradio.ru/tatarradio-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eceec",
     name: "Тату (t.A.T.u.)",
     url: "https://str.pcradio.ru/Tatu-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853eceed",
-    name: "Твое радио (Львов)",
-    url: "https://str.pcradio.ru/tvoeradio_com-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eceee",
     name: "Твой день",
@@ -20793,12 +19419,7 @@ export const potok = [
     url: "https://str.pcradio.ru/clubraysl_ru-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecef0",
-    name: "Твоё радио (Лида)",
-    url: "https://str.pcradio.ru/tvoe_radio_lida-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecef1",
     name: "Теос",
@@ -20841,60 +19462,21 @@ export const potok = [
     url: "https://str.pcradio.ru/twr_belarus-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecef8",
-    name: "Трансмит (Вологда)",
-    url: "https://str.pcradio.ru/transmit_vologda-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecef9",
     name: " TWR)",
     url: "https://str.pcradio.ru/twr_ua-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecefa",
-    name: "Узбегим Таронаси",
-    url: "https://str.pcradio.ru/ozbegim_taronasi-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecefb",
-    name: "Украинское радио 1 - Перший",
-    url: "https://str.pcradio.ru/nrcu_gov_ua1-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecefc",
-    name: "Украинское радио 2 - Промінь",
-    url: "https://str.pcradio.ru/nrcu_gov_ua2-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecefd",
-    name: "Украинское радио 3 - Культура",
-    url: "https://str.pcradio.ru/nrcu_gov_ua3-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecefe",
-    name: "Украинское радио 4 - ВСРУ",
-    url: "https://str.pcradio.ru/nrcu_gov_ua4-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853eceff",
     name: "Унесенные ветром",
     url: "https://str.pcradio.ru/Unesennye_vetrom-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecf00",
-    name: "Упоротая волна",
-    url: "https://str.pcradio.ru/uporotaya-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecf01",
     name: "Фактор-2 18+",
@@ -20945,7 +19527,7 @@ export const potok = [
   },
   {
     id: "62ba0c283ca1f692853ecf09",
-    name: "Х_й Забей 18+",
+    name: "Забей 18+",
     url: "https://str.pcradio.ru/Hui_Zabey-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
@@ -20961,60 +19543,21 @@ export const potok = [
     url: "https://str.pcradio.ru/Hameleon-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecf0c",
-    name: "Херсон FM 99.4",
-    url: "https://str.pcradio.ru/kherson_fm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf0d",
-    name: "Хит FM (Златоуст)",
-    url: "https://str.pcradio.ru/hitfm_zlatoust-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecf0e",
     name: "Хит FM (Москва)",
     url: "https://str.pcradio.ru/hitfmfeelgood-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecf0f",
-    name: "Хит FM (Оренбург)",
-    url: "https://str.pcradio.ru/hitfm_oren-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecf10",
-    name: "2 (Сургут)",
+    name: "Хит FM (Сургут)",
     url: "https://str.pcradio.ru/hitfm_surgut-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecf11",
-    name: "Хит FM Украина",
-    url: "https://str.pcradio.ru/hitfm_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf12",
-    name: "Хит FM Украина - Найбільші хіти",
-    url: "https://str.pcradio.ru/hitfm_ua_greatest-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf13",
-    name: "Хит FM Украина - Сучасні хіти",
-    url: "https://str.pcradio.ru/hitfm_ua_top-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf14",
-    name: "Хит FM Украина - Українські хіти",
-    url: "https://str.pcradio.ru/hitfm_ua_ukrhits-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecf15",
     name: "Хит плюс",
@@ -21087,60 +19630,7 @@ export const potok = [
     url: "https://str.pcradio.ru/chipelduk-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecf21",
-    name: "Шалкар",
-    url: "https://str.pcradio.ru/shalkar_kz-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf22",
-    name: "Шансон (Воронеж)",
-    url: "https://str.pcradio.ru/shanson_voronezh-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf23",
-    name: "Шансон (г. Орск)",
-    url: "https://str.pcradio.ru/shanson_orsk-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf24",
-    name: "Шансон (Москва)",
-    url: "https://str.pcradio.ru/radioshanson_fm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf25",
-    name: "Шансон (Москва) - Без цензуры",
-    url: "https://str.pcradio.ru/radioshanson_fm_uncensored-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf26",
-    name: "Шансон (Москва) - Романтический",
-    url: "https://str.pcradio.ru/radioshanson_fm_romance-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf27",
-    name: "Шансон (Санкт-Петербург)",
-    url: "https://str.pcradio.ru/shanson_spb-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf28",
-    name: "Шансон - PC Radio",
-    url: "https://str.pcradio.ru/Shanson_pc-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf29",
-    name: "Шансон 102.5 (Уфа)",
-    url: "https://str.pcradio.ru/chansonufa-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecf2a",
     name: "Шансон Волна",
@@ -21159,24 +19649,14 @@ export const potok = [
     url: "https://str.pcradio.ru/shanson_plus-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecf2d",
-    name: "Шансон Украина",
-    url: "https://str.pcradio.ru/shanson_ua-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecf2e",
     name: "Шансон Хит",
     url: "https://str.pcradio.ru/Shanson_hit-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecf2f",
-    name: "Шансон шоферский",
-    url: "https://str.pcradio.ru/Shanson_shoffersky-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecf30",
     name: "Шоколад",
@@ -21231,36 +19711,14 @@ export const potok = [
     url: "https://str.pcradio.ru/Etno-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecf39",
-    name: "Эхо Москвы",
-    url: "https://str.pcradio.ru/ehomsk-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf3a",
-    name: "Эхо Москвы (Оренбург)",
-    url: "https://str.pcradio.ru/echo_oren-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ecf3b",
-    name: "Эхо Москвы (Пермь)",
-    url: "https://str.pcradio.ru/ehomsk_perm-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecf3c",
     name: "Югра",
     url: "https://str.pcradio.ru/ugra_ru-hi",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
-  {
-    id: "62ba0c283ca1f692853ecf3d",
-    name: "Южная Волна",
-    url: "https://str.pcradio.ru/yuzhnaya_volna_rf-hi",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ecf3e",
     name: "Юлдаш",
