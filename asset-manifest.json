@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4c5116c.css",
+    "main.js": "/static/js/main.a31aa808.js",
+    "static/js/787.ddeace0c.chunk.js": "/static/js/787.ddeace0c.chunk.js",
+    "static/media/radioImg.jpg": "/static/media/radioImg.9b3b9c167100bdc49ea2.jpg",
+    "static/media/play-button-svgrepo-com.svg": "/static/media/play-button-svgrepo-com.eb7b8dc09d0c134388e271e5781c7c1c.svg",
+    "static/media/pause-svgrepo-com.svg": "/static/media/pause-svgrepo-com.1a3d31f977bfab75af782c63e822f907.svg",
+    "static/media/forward-svgrepo-com.svg": "/static/media/forward-svgrepo-com.7b90fb92dffc21b9674ac87541551bc8.svg",
+    "index.html": "/index.html",
+    "main.b4c5116c.css.map": "/static/css/main.b4c5116c.css.map",
+    "main.a31aa808.js.map": "/static/js/main.a31aa808.js.map",
+    "787.ddeace0c.chunk.js.map": "/static/js/787.ddeace0c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4c5116c.css",
+    "static/js/main.a31aa808.js"
+  ]
+}
