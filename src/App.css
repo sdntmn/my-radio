@@ -3,6 +3,12 @@
   --active-color: #00aeb0;
 }
 
+#canvas {
+  display: block;
+  max-width: 500px;
+  max-height: 200px;
+}
+
 * {
   scrollbar-width: thin;
   scrollbar-color: #00adb08d rgb(163, 158, 146);
@@ -59,6 +65,7 @@ html {
 }
 
 .main {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -106,6 +113,8 @@ html {
 }
 
 .footer {
+  position: relative;
+  z-index: 10;
   margin: 0 auto;
   text-align: center;
   grid-area: footer;
