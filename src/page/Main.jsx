@@ -70,7 +70,7 @@ function Main({ tracks }) {
         <RadioList tracks={tracks} setRadioIndex={setRadioIndex} />
         <section className='main'>
           {/* <AudioVisualizer audioElement={audioElement} /> */}
-          <SliderThumb audioElement={audioElement} />
+          {/* <SliderThumb audioElement={audioElement} /> */}
           <AudioControls
             isPlaying={isPlaying}
             onPrev={toPrevTrack}
