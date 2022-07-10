@@ -3,72 +3,70 @@ input[type="range"],
 ::-moz-range-thumb,
 ::-ms-thumb {
   -webkit-appearance: none;
-  background-color: #666;
+  background-color: #00aeb0;
   width: 10px;
   height: 20px;
 }
 
-.range-wrap {
-  background: #ededed;
-  margin: 20px 0;
-  border: 8px solid #bfe2ff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
-}
-.range-slider * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-.range-slider,
-.range-ticks,
-.label-range {
-  display: flex;
-}
-.range-slider {
-  flex-flow: column nowrap;
+.rangeSlider {
+  max-width: 70%;
+  background-color: inherit;
   margin: 0 auto;
-  max-width: 18em;
-  padding: 0 1.5em 1.5em 1.5em;
-  font-size: calc(20px + (20) * (100vw) / (2000));
-  box-sizing: border-box;
+  padding: 0;
 }
-.range-slider input[type="range"],
-.range {
-  border-radius: 0.75em;
+.rangeSlider__wrap {
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  flex-flow: column nowrap;
+  max-width: 100%;
+
+  box-sizing: border-box;
+  box-shadow: inset 0px 2px 2px -2px #242625, 0 3px 3px 1px #00adb08d,
+    0em 3px 1em rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.rangeSlider__wrap input[type="range"] {
   overflow: hidden;
   position: relative;
-  height: 1.5em;
-}
-.range-slider input[type="range"] {
+  min-height: 1.5em;
   background-color: transparent;
-  font: 1em/1.5 "Roboto", sans-serif;
-  box-shadow: 0.3em 0.3em 0.4em #c1c2c5 inset, -0.3em -0.3em 0.4em #fff inset;
-  display: block;
-  padding: 0 0.1em;
+
+  display: none;
   width: 100%;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
-.range-slider input[type="range"]:focus {
+
+.rangeSlider__wrap input[type="range"]:focus {
   outline: transparent;
 }
-.range-ticks {
-  font: 1em/1.5 "Roboto", sans-serif;
+
+.rangeSlider__ticks {
+  display: flex;
+  font-family: "Roboto", sans-serif, monospace;
+  font-size: 40px;
   justify-content: space-between;
   align-items: center;
   pointer-events: none;
   position: absolute;
-  top: 0.04em;
-  left: 0.75em;
-  width: calc(100% - 1.5em);
+  top: calc(50% - 20px);
+  left: 20px;
+  width: calc(100% - 40px);
   height: 100%;
 }
-.range-tick,
-.range-tick-text {
-  display: inline-block;
+
+.range {
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  height: 40px;
 }
+
 .range-tick {
+  display: inline-block;
   color: #454954;
   font-size: 0.5em;
   text-align: center;
@@ -78,29 +76,31 @@ input[type="range"],
   user-select: none;
 }
 .range-tick-text {
+  display: inline-block;
   transform: translateX(-50%);
 }
+
 .label-range {
+  display: flex;
   font: 0.8em/1.5 "Roboto", sans-serif;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
-.data-range {
+
+.rangeSlider__data {
   display: flex;
-  height: 3em;
-  width: 3em;
   justify-content: center;
+  height: 40px;
+  width: 36px;
   align-items: center;
-  text-align: center;
-  font: bold 0.5em/1.5 "Roboto", sans-serif;
-  color: #fff;
+
   position: absolute;
   top: 0;
   z-index: 2;
   pointer-events: none;
-  background-color: #337ab7;
+
   border: 0;
-  border-radius: 50%;
-  box-shadow: -0.3em -0.3em 0.5em #0d518c inset,
-    0 -0.2em 0.2em 0 rgba(0, 0, 0, 0.2), 0.3em 0.5em 0.8em rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 0em 0em 0.5em #00adb08d inset, 0 -0.2em 0.2em 0 rgba(0, 0, 0, 0.2),
+    1px 1px 10px rgba(0, 0, 0, 0.3);
 }

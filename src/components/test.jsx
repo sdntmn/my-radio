@@ -188,14 +188,14 @@ export default Main;
 //   ));
 
 //   let ticks = (
-//     <div className='range-ticks'>
+//     <div className='rangeSlider__ticks'>
 //       <div className='range'>{tickStep}</div>
 //     </div>
 //   );
 
 //   const Component = () => {
 //     // Here it's ReactElement
-//     return <div className='data-range'></div>;
+//     return <div className='rangeSlider__data'></div>;
 //   };
 
 //   // Here it's ReactNode
@@ -222,8 +222,8 @@ export default Main;
 //     <>
 //       <div className='levelVolume'>
 //         <div className='label-range'>Громкость</div>
-//         <div className='range-wrap'>
-//           <div class='range-slider'>
+//         <div className='rangeSlider'>
+//           <div class='rangeSlider__wrap'>
 //             <div class='range'>
 //               <input
 //                 id='range'
@@ -235,7 +235,7 @@ export default Main;
 //                 value={isLevelVolume}
 //                 onChange={(e) => onScrub(e.target.value)}></input>
 
-//               <div class='data-range'>{isLevelVolume}</div>
+//               <div class='rangeSlider__data'>{isLevelVolume}</div>
 //               {ticks}
 //             </div>
 //           </div>
