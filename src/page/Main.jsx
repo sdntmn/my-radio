@@ -5,6 +5,9 @@ import Favorites from "../components/Favorites";
 import RadioList from "../components/RadioList";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import VolumeRange from "../components/VolumeRange";
+
+//import AudioVisualizer from "../components/AudioVisualizer";
 
 function Main({ tracks }) {
   const [radioIndex, setRadioIndex] = useState(0);
@@ -14,6 +17,10 @@ function Main({ tracks }) {
 
   const audioElement = useMemo(() => new Audio(url), [url]);
   audioElement.preload = "none";
+  audioElement.step = 0.01;
+  audioElement.value = 0.5;
+
+  const readyToPlay = audioElement.readyState;
 
   useEffect(() => {
     if (listRadio.length < 1) {
@@ -21,11 +28,9 @@ function Main({ tracks }) {
     }
   }, [listRadio.length, radioIndex, tracks]);
 
-  //console.log(listRadio);
-
   useEffect(() => {
     audioElement.load();
-  }, [audioElement]);
+  }, [audioElement, readyToPlay]);
 
   function toPrevTrack() {
     if (radioIndex - 1 < 0) {
@@ -49,7 +54,7 @@ function Main({ tracks }) {
     } else {
       audioElement.pause();
     }
-  }, [isPlaying, audioElement]);
+  }, [isPlaying, audioElement, readyToPlay]);
 
   useEffect(() => {
     return () => {
@@ -63,8 +68,8 @@ function Main({ tracks }) {
         <Header />
         <RadioList tracks={tracks} setRadioIndex={setRadioIndex} />
         <section className='main'>
+          <VolumeRange audioElement={audioElement} />
           <AudioPlayer radioIndex={radioIndex} name={name} img={img} />
-
           <AudioControls
             isPlaying={isPlaying}
             onPrev={toPrevTrack}
