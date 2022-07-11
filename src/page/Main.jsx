@@ -7,8 +7,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import VolumeRange from "../components/VolumeRange";
 
-//import AudioVisualizer from "../components/AudioVisualizer";
-
 function Main({ tracks }) {
   const [radioIndex, setRadioIndex] = useState(0);
   const [listRadio, setListRadio] = useState([]);

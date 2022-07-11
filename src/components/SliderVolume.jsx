@@ -46,7 +46,7 @@ const SliderVolume = ({
   };
 
   // Уровень громкости выводимый в бегунке
-  const levelVolume = Math.round((Math.floor(isLevelVolume * 100) / 100) * 100);
+  // const levelVolume = Math.round((Math.floor(isLevelVolume * 100) / 100) * 100);
 
   const addTicks = () => {
     let content = [];

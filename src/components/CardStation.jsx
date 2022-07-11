@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import myLogo from "../images/favorite.svg";
+import React, { useState } from "react";
+
 import { Link } from "react-router-dom";
 const CardStation = ({ card, setRadioIndex }) => {
   const [like, setLike] = useState(false);
