@@ -46,6 +46,7 @@ const VolumeRange = ({ audioElement }) => {
 
   return (
     <>
+      <h3 className='main__levelVolume-title'> Уровень громкости</h3>
       <div className='levelVolume'>
         <ButtonVolume
           id='decrementButton'
@@ -53,6 +54,7 @@ const VolumeRange = ({ audioElement }) => {
           textButton='-'
           onMouseClickDown={onMouseDown}
           onMouseClickUp={onMouseUp}
+          className='levelVolume__down'
         />
 
         <SliderVolume
@@ -67,6 +69,7 @@ const VolumeRange = ({ audioElement }) => {
           textButton='+'
           onMouseClickDown={onMouseDown}
           onMouseClickUp={onMouseUp}
+          className='levelVolume__up'
         />
       </div>
     </>

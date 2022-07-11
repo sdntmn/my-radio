@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import myLogo from "../images/favorite.svg";
 import { Link } from "react-router-dom";
 const CardStation = ({ card, setRadioIndex }) => {
+  const [like, setLike] = useState(false);
   const { index, img, name } = card;
-  const cardLikeButtonClassName = `card__like-button `;
+
+  const cardStyleFavorite = ` ${
+    like ? "card__button-is-favorite" : " card__button"
+  }`;
 
   function handleClick() {
     setRadioIndex(index);
@@ -14,7 +19,7 @@ const CardStation = ({ card, setRadioIndex }) => {
         <li className='cards__item card '>
           <img className='card__img' src={img} alt='#' />
           <h4 className='card__title'>{name}</h4>
-          <button type='button' className={cardLikeButtonClassName}></button>
+          <button type='button' className={cardStyleFavorite}></button>
         </li>
       </Link>
     </>

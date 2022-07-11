@@ -9,17 +9,22 @@ input[type="range"],
 }
 
 .rangeSlider {
-  max-width: 70%;
+  display: flex;
+  width: 100%;
   background-color: inherit;
+  flex-flow: row nowrap;
   margin: 0 auto;
   padding: 0;
+  border: 0;
 }
+
 .rangeSlider__wrap {
   display: flex;
+  flex-flow: column nowrap;
   padding: 0;
   margin: 0 auto;
-  flex-flow: column nowrap;
-  max-width: 100%;
+
+  width: 100%;
 
   box-sizing: border-box;
   box-shadow: inset 0px 2px 2px -2px #242625, 0 3px 3px 1px #00adb08d,
@@ -47,7 +52,7 @@ input[type="range"],
 .rangeSlider__ticks {
   display: flex;
   font-family: "Roboto", sans-serif, monospace;
-  font-size: 40px;
+  font-size: 45px;
   justify-content: space-between;
   align-items: center;
   pointer-events: none;

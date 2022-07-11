@@ -6,6 +6,7 @@ const ButtonVolume = ({
   textButton,
   onMouseClickDown,
   onMouseClickUp,
+  className,
 }) => {
   function handleClick() {
     onMouseClickDown(id);
@@ -13,12 +14,11 @@ const ButtonVolume = ({
   return (
     <button
       id={id}
+      className={className}
       aria-label={aLabel}
       type='button'
       onMouseDown={handleClick}
-      onMouseUp={onMouseClickUp}>
-      {textButton}
-    </button>
+      onMouseUp={onMouseClickUp}></button>
   );
 };
 
