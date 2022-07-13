@@ -1,11 +1,15 @@
 import React from "react";
+import CardStation from "./CardStation";
 
-const Favorites = () => {
+const Favorites = ({ listFavorite }) => {
+  const card = listFavorite.map((item) => (
+    <CardStation key={item.id} card={item} />
+  ));
   return (
     <>
       <div className='favorites'>
         <h3 className='radioList__title'>Избранное</h3>
-        <ul className='radioList__items cards'>Пусто</ul>
+        <ul className='radioList__items cards'>{card}</ul>
       </div>
     </>
   );

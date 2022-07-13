@@ -11,7 +11,22 @@ function Main({ tracks }) {
   const [radioIndex, setRadioIndex] = useState(0);
   const [listRadio, setListRadio] = useState([]);
   const [isPlaying, setIsPlaying] = useState(false);
-  const { name, img, url } = tracks[radioIndex];
+  const [isLike, setIsLike] = useState(false);
+  //Данные из сторадже
+  let listSaveInLocalStorage =
+    JSON.parse(localStorage.getItem("listSave")) || [];
+  const [listFavoriteId, setListFavoriteId] = useState(listSaveInLocalStorage);
+
+  useEffect(() => {
+    setListFavoriteId(JSON.parse(localStorage.getItem("listSave")));
+  }, []);
+
+  //Отслеживания изменений и обновления данных LocalStorage.
+  useEffect(() => {
+    localStorage.setItem("listSave", JSON.stringify(listFavoriteId));
+  }, [listFavoriteId]);
+
+  const { name, img, url, id } = tracks[radioIndex];
 
   const audioElement = useMemo(() => new Audio(url), [url]);
   audioElement.preload = "none";
@@ -60,14 +75,61 @@ function Main({ tracks }) {
     };
   }, [audioElement, url]);
 
+  const [isDataListFavorite, setIsDataListFavorite] = useState([]);
+
+  // загрузить данные сохраненных треков
+  useEffect(() => {}, []);
+
+  function addDataOnId(tracksId) {
+    const track = tracks.find((i) => i.id === tracksId);
+    return setIsDataListFavorite([...isDataListFavorite, track]);
+  }
+
+  console.log(isDataListFavorite);
+  console.log(listFavoriteId);
+
+  function handleCardDelete(tracksId) {
+    const track = isDataListFavorite.find((i) => i.id === tracksId);
+    console.log(track);
+    return setIsDataListFavorite([
+      ...isDataListFavorite.slice(0, track.index),
+      ...isDataListFavorite.slice(track.index + 1),
+    ]);
+  }
+
+  function handleIndexDelete(tracksId) {
+    // const track = listFavoriteId.find((i) => i === tracksId);
+    // console.log(track);
+    // return setListFavoriteId([
+    //   ...listFavoriteId.slice(0, track),
+    //   ...listFavoriteId.slice(track + 1),
+    // ]);
+  }
+
   return (
     <>
       <div className='content page__section'>
         <Header />
-        <RadioList tracks={tracks} setRadioIndex={setRadioIndex} />
+        <RadioList
+          tracks={tracks}
+          setRadioIndex={setRadioIndex}
+          listFavorites={listFavoriteId}
+        />
         <section className='main'>
           <VolumeRange audioElement={audioElement} />
-          <AudioPlayer radioIndex={radioIndex} name={name} img={img} />
+          <AudioPlayer
+            radioIndex={radioIndex}
+            name={name}
+            img={img}
+            tracksId={id}
+            listFavorites={listFavoriteId}
+            addFavorite={setListFavoriteId}
+            isLike={isLike}
+            setLike={setIsLike}
+            addDataId={addDataOnId}
+            handleCardDelete={handleCardDelete}
+            handleIndexDelete={handleIndexDelete}
+          />
           <AudioControls
             isPlaying={isPlaying}
             onPrev={toPrevTrack}
@@ -76,7 +138,11 @@ function Main({ tracks }) {
             radioIndex={radioIndex}
           />
         </section>
-        <Favorites />
+        <Favorites
+          tracks={tracks}
+          listFavorite={isDataListFavorite}
+          tracksId={id}
+        />
         <Footer />
       </div>
     </>

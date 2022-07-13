@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { Link } from "react-router-dom";
-const CardStation = ({ card, setRadioIndex }) => {
+const CardStation = ({ card, setRadioIndex, listFavorites }) => {
   const [like, setLike] = useState(false);
+
+  // useEffect(() => {
+  //   const favorite = listFavorites.includes(card.id);
+  //   setLike(favorite);
+  // }, [card.id, listFavorites]);
+
   const { index, img, name } = card;
 
   const cardStyleFavorite = ` ${
