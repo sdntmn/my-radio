@@ -124,14 +124,16 @@ function Main({ tracks }) {
 
   // Для первоначальной загрузки и обработки данных из localStorage
   useEffect(() => {
-    const lengthFavoriteId = listFavoriteId.length;
-    const lengthDataListFavorite = isDataListFavorite.length;
-    if (lengthFavoriteId !== lengthDataListFavorite) {
-      for (let i = 0; i < lengthFavoriteId; i++) {
-        for (let elem of tracks) {
-          if (elem.id === listFavoriteId[i]) {
-            isDataListFavorite.push(elem);
-            elem.like = true;
+    if (listFavoriteId.length !== null && isDataListFavorite.length !== null) {
+      const lengthFavoriteId = 0 || listFavoriteId.length;
+      const lengthDataListFavorite = 0 || isDataListFavorite.length;
+      if (lengthFavoriteId !== lengthDataListFavorite) {
+        for (let i = 0; i < lengthFavoriteId; i++) {
+          for (let elem of tracks) {
+            if (elem.id === listFavoriteId[i]) {
+              isDataListFavorite.push(elem);
+              elem.like = true;
+            }
           }
         }
       }
