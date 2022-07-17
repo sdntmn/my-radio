@@ -1,33 +1,42 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import { Link } from "react-router-dom";
-const CardStation = ({ card, setRadioIndex, listFavorites }) => {
-  const [like, setLike] = useState(false);
-
-  // useEffect(() => {
-  //   const favorite = listFavorites.includes(card.id);
-  //   setLike(favorite);
-  // }, [card.id, listFavorites]);
-
+const CardStation = ({
+  card,
+  setRadioIndex,
+  listFavorites,
+  handleCardDelete,
+}) => {
   const { index, img, name } = card;
-
-  const cardStyleFavorite = ` ${
-    like ? "card__button-is-favorite" : " card__button"
-  }`;
 
   function handleClick() {
     setRadioIndex(index);
   }
 
+  function handleDeleteClick() {
+    handleCardDelete(card.id);
+  }
+
   return (
     <>
-      <Link to='' onClick={handleClick} style={{ textDecoration: "none" }}>
-        <li className='cards__item card '>
-          <img className='card__img' src={img} alt='#' />
-          <h4 className='card__title'>{name}</h4>
-          <button type='button' className={cardStyleFavorite}></button>
-        </li>
-      </Link>
+      <li className='card '>
+        <div className='card__link-wrap'>
+          <Link to='' onClick={handleClick} className='card__link-img'>
+            {" "}
+            <img className='card__img' src={img} alt='#' />
+          </Link>
+          <Link to='' onClick={handleClick} className='card__link'>
+            <h4 className='card__title'>{name}</h4>
+          </Link>
+        </div>
+
+        {!listFavorites && (
+          <button
+            type='button'
+            className='card__button-delete'
+            onClick={handleDeleteClick}></button>
+        )}
+      </li>
     </>
   );
 };

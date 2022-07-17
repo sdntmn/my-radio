@@ -11,6 +11,7 @@ const AudioPlayer = ({
   addDataId,
   handleCardDelete,
   handleIndexDelete,
+  tracks,
 }) => {
   // есть id в списке избранное
   useEffect(() => {
@@ -19,23 +20,21 @@ const AudioPlayer = ({
   }, [listFavorites, setLike, tracksId]);
 
   const cardStyleFavorite = ` ${
-    isLike ? "card__button-is-favorite-size " : "card__button-is-notFavorite"
+    tracks.like || isLike
+      ? "card__button-is-favorite-size "
+      : "card__button-is-notFavorite"
   }`;
 
   const onClick = () => {
     const favorite = listFavorites.includes(tracksId);
     setLike(favorite);
     if (!isLike) {
-      setLike(true);
+      setLike(!tracks.like);
       addFavorite([...listFavorites, tracksId]);
       addDataId(tracksId);
-      console.log();
     } else {
-      console.log(tracksId);
-      setLike(false);
-
+      setLike(!tracks.like);
       handleCardDelete(tracksId);
-      handleIndexDelete(tracksId);
     }
   };
 

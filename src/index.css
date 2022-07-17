@@ -1,4 +1,15 @@
 @import url("./vendor/normalize.css");
 
-@import url("./App.css");
-@import url("./styles/SliderThumb.css");
+@import url("./styles/css/audioControls.css");
+@import url("./styles/css/cardStation.css");
+@import url("./styles/css/header.css");
+@import url("./styles/css/volumeRange.css");
+@import url("./styles/css/main.css");
+@import url("./styles/css/radioList.css");
+@import url("./styles/css/radioPlayer.css");
+@import url("./styles/css/favorites.css");
+@import url("./styles/css/footer.css");
+@import url("./styles/css/sliderVolume.css");
+
+@import url("./styles/css/general.css");
+@import url("./styles/css/variables.css");
