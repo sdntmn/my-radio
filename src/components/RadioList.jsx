@@ -1,9 +1,16 @@
 import React from "react";
 import CardStation from "./CardStation";
 
-const RadioList = ({ tracks, setRadioIndex }) => {
+const RadioList = ({ tracks, setRadioIndex, like, listFavorites }) => {
   const card = tracks.map((item) => (
-    <CardStation key={item.id} card={item} setRadioIndex={setRadioIndex} />
+    <CardStation
+      key={item.id}
+      card={item}
+      setRadioIndex={setRadioIndex}
+      like={like}
+      tracks={tracks}
+      listFavorites={listFavorites}
+    />
   ));
   return (
     <>

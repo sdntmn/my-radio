@@ -52,8 +52,8 @@ const SliderVolume = ({
     let content = [];
     for (let t = min; t <= max; t += tick * 10) {
       content.push(
-        <span className='range-tick'>
-          <span className='range-tick-text'>{t}</span>
+        <span className='range__tick'>
+          <span className='range__tick-text'>{t}</span>
         </span>
       );
     }
@@ -61,8 +61,8 @@ const SliderVolume = ({
   };
 
   const tickStep = addTicks().map((item, index) => (
-    <span key={index} className='range-tick'>
-      <span className='range-tick-text'>{item}</span>
+    <span key={index} className='range__tick'>
+      <span className='range__tick-text'>{item}</span>
     </span>
   ));
 
