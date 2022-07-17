@@ -15,7 +15,9 @@ const AudioPlayer = ({
 }) => {
   // есть id в списке избранное
   useEffect(() => {
-    let favorite = listFavorites.includes(tracksId) || false;
+    function favorite() {
+      return listFavorites.includes(tracksId) || false;
+    }
     setLike(favorite);
   }, [listFavorites, setLike, tracksId]);
 
