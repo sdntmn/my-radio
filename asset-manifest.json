@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-radio/static/css/main.65479bb9.css",
+    "main.css": "/my-radio/static/css/main.97207590.css",
     "main.js": "/my-radio/static/js/main.257c394d.js",
     "static/js/787.ddeace0c.chunk.js": "/my-radio/static/js/787.ddeace0c.chunk.js",
     "static/media/radioImg.jpg": "/my-radio/static/media/radioImg.9b3b9c167100bdc49ea2.jpg",
@@ -11,12 +11,12 @@
     "static/media/delete-icon.svg": "/my-radio/static/media/delete-icon.a274c87c0f6b553b47ad.svg",
     "static/media/Vector.svg": "/my-radio/static/media/Vector.f7d0fb0a8164db3d536c.svg",
     "static/media/favorite.svg": "/my-radio/static/media/favorite.fc6b76e565fc096f4a68.svg",
-    "main.65479bb9.css.map": "/my-radio/static/css/main.65479bb9.css.map",
+    "main.97207590.css.map": "/my-radio/static/css/main.97207590.css.map",
     "main.257c394d.js.map": "/my-radio/static/js/main.257c394d.js.map",
     "787.ddeace0c.chunk.js.map": "/my-radio/static/js/787.ddeace0c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65479bb9.css",
+    "static/css/main.97207590.css",
     "static/js/main.257c394d.js"
   ]
 }
