@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
-import AudioPlayer from "../components/RadioPlayer";
+import RadioPlayer from "../components/RadioPlayer";
 import AudioControls from "../components/AudioControls";
 import Favorites from "../components/Favorites";
 import RadioList from "../components/RadioList";
@@ -24,13 +24,11 @@ function Main({ tracks }) {
   //Список избранного. Первоначальное получение данных из localStorage
   let listSaveInLocalStorage =
     JSON.parse(localStorage.getItem("listSave")) || [];
-  // Сохранение в state
-  const [listFavoriteId, setListFavoriteId] = useState(listSaveInLocalStorage);
 
-  //Список избранного. Отслеживание изменения и получения данных из localStorage
-  useEffect(() => {
-    setListFavoriteId(JSON.parse(localStorage.getItem("listSave")));
-  }, []);
+  // Сохранение в state
+  const [listFavoriteId, setListFavoriteId] = useState(
+    listSaveInLocalStorage || []
+  );
 
   // Список избранного. Отслеживания изменений и сохранение данных в LocalStorage.
   useEffect(() => {
@@ -109,23 +107,23 @@ function Main({ tracks }) {
   // Удаление из избранного и списка id сохраняемого в localStorage
   function handleCardDelete(tracksId) {
     const track = isDataListFavorite.findIndex((i) => i.id === tracksId);
-    console.log(track);
     return (
       setIsDataListFavorite([
-        ...isDataListFavorite.slice(0, track),
-        ...isDataListFavorite.slice(track + 1),
+        ...isDataListFavorite?.slice(0, track),
+        ...isDataListFavorite?.slice(track + 1),
       ]),
       setListFavoriteId([
-        ...listFavoriteId.slice(0, track),
-        ...listFavoriteId.slice(track + 1),
+        ...listFavoriteId?.slice(0, track),
+        ...listFavoriteId?.slice(track + 1),
       ])
     );
   }
 
   // Для первоначальной загрузки и обработки данных из localStorage
   useEffect(() => {
-    const lengthFavoriteId = Object.keys(listFavoriteId).length;
-    const lengthDataListFavorite = Object.keys(isDataListFavorite).length;
+    const lengthFavoriteId = listFavoriteId?.length;
+    const lengthDataListFavorite = isDataListFavorite?.length;
+
     if (lengthFavoriteId !== lengthDataListFavorite) {
       for (let i = 0; i < lengthFavoriteId; i++) {
         for (let elem of tracks) {
@@ -138,10 +136,15 @@ function Main({ tracks }) {
     }
   }, [isDataListFavorite, isDataListFavorite.length, listFavoriteId, tracks]);
 
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const handleTogglePopup = () => {
+    setIsPopupOpen(!isPopupOpen);
+  };
+
   return (
     <>
       <div className='content page__section'>
-        <Header />
+        <Header togglePopup={handleTogglePopup} isPopupOpen={isPopupOpen} />
         <RadioList
           tracks={tracks}
           setRadioIndex={setRadioIndex}
@@ -150,19 +153,18 @@ function Main({ tracks }) {
         />
         <section className='main'>
           <VolumeRange audioElement={audioElement} />
-          <AudioPlayer
+          <RadioPlayer
             tracks={tracks}
             radioIndex={radioIndex}
             name={name}
             img={img}
             tracksId={id}
-            listFavorites={listFavoriteId}
+            listFavoriteId={listFavoriteId}
             addFavorite={setListFavoriteId}
             isLike={isLike}
             setLike={setIsLike}
             addDataId={addDataOnId}
             handleCardDelete={handleCardDelete}
-            // handleIndexDelete={handleIndexDelete}
           />
           <AudioControls
             isPlaying={isPlaying}

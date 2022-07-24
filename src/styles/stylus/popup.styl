@@ -1,0 +1,27 @@
+.popup
+  display: flex
+
+  margin: 3px 0 0 0
+  max-width: 382px;
+  width: 100%;
+  height: 300px;
+  padding: 5px 25px
+  background-color: var(--popupBg);
+  position: fixed;
+  top: 100px;
+  right: calc((100vw - 1440px) / 2);
+  z-index: 100;
+  transition: visibility .5s, opacity 0.5s;
+  visibility: hidden;
+  opacity: 1;
+
+  &__is-opened
+
+    visibility: visible;
+    opacity: 1;
+    pointer-events: all;
+
+  &__icon-close
+
+    max-width: 35px
+    width: 100%

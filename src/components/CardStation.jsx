@@ -30,7 +30,7 @@ const CardStation = ({
           </Link>
         </div>
 
-        {!listFavorites && (
+        {!!!listFavorites && (
           <button
             type='button'
             className='card__button-delete'

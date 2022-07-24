@@ -1,94 +1,53 @@
 export const potok = [
   {
-    id: "62ba0c283ca1f692853ebe93",
-    like: false,
-    name: "Bigtunesradio - trance",
-    url: "http://bigtunesradio.com:8000/trance.mp3?type=.mp3/;stream.mp3",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
     id: "62ba0c283ca1f692853ebe97",
     like: false,
     name: "Dance Wave Retro!",
     url: "http://retro.dancewave.online/retrodance.mp3",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
+    img: "https://dancewave.online/wp-content/uploads/2021/06/dwplay_aac.png",
   },
   {
     id: "62ba0c283ca1f692853ebe98",
     like: false,
     name: "Dance Wave!",
     url: "http://dancewave.online/dance.mp3",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
+    img: "https://radjo.hu/wp-content/uploads/2020/11/dance_wave_radio.jpg",
   },
-  {
-    id: "62ba0c283ca1f692853ebe99",
-    like: false,
-    name: "Deep Melon radio",
-    url: "http://stream.melonradio.com/deep",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ebe9d",
-    like: false,
-    name: "Dorognoe frontovaya",
-    url: "http://dorognoe.hostingradio.ru:8000/dorognoe1945.mp3",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ebea1",
-    like: false,
-    name: "Fresh FM Sosnovy Bor 105.0 Mhz",
-    url: "http://a2.radioheart.ru:8007/live",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ebea9",
-    like: false,
-    name: "House Melon radio",
-    url: "http://stream.melonradio.com/house",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
+
   {
     id: "62ba0c283ca1f692853ebeab",
     like: false,
     name: "Jazz FM.ru - Instrumental Jazz",
     url: "http://jfm1.hostingradio.ru:14536/ijstream.mp3",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
+    img: "https://www.netclipart.com/pp/m/79-794322_jazz-png-esco-corporation.png",
   },
   {
     id: "62ba0c283ca1f692853ebeac",
     like: false,
-    name: "Jazz FM.ru - Jazz Legends",
-    url: "http://jfm1.hostingradio.ru:14536/jlstream.mp3",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
+    name: "Radio Chocolate",
+    url: "http://choco.hostingradio.ru:10010/fm",
+    img: "https://www.sostav.ru/articles/rus/2011/08.04/news/images/1aero3.jpg",
   },
   {
     id: "62ba0c283ca1f692853ebeaf",
     like: false,
     name: "Lounge Melon radio",
     url: "http://stream.melonradio.com/lounge",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
+    img: "https://cdn-radiotime-logos.tunein.com/s135309g.png",
   },
 
   {
     id: "62ba0c283ca1f692853ebedd",
     like: false,
-    name: "Radio DRIVE www.radiogora.ru",
-    url: "http://listen.radiogora.ru:8000/drive128",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
-  },
-  {
-    id: "62ba0c283ca1f692853ebede",
-    like: false,
-    name: "Radio ELECTRO www.radiogora.ru",
-    url: "http://listen.radiogora.ru:8000/electro32",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
+    name: "Эльдорадио",
+    url: "http://emgspb.hostingradio.ru/eldoradio128.mp3",
+    img: "https://www.prfm.ru/logo/eldoradio-logo.png",
   },
 
   {
     id: "62ba0c283ca1f692853ebee0",
     like: false,
-    name: "Radio ET CETERA www.radiogora.ru",
+    name: "Radio ET CETERA",
     url: "http://listen.radiogora.ru:8000/etc320",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
@@ -96,14 +55,14 @@ export const potok = [
   {
     id: "62ba0c283ca1f692853ebee4",
     like: false,
-    name: "Radio HIPHOP www.radiogora.ru",
+    name: "Radio HIPHOP",
     url: "http://listen.radiogora.ru:8000/hiphop128",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
   {
     id: "62ba0c283ca1f692853ebee5",
     like: false,
-    name: "Radio HITMIX www.radiogora.ru",
+    name: "Radio HITMIX",
     url: "http://listen.radiogora.ru:8000/hitmix128",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
@@ -127,7 +86,7 @@ export const potok = [
   {
     id: "62ba0c283ca1f692853ebeed",
     like: false,
-    name: "Radio OLDIES www.radiogora.ru",
+    name: "Radio OLDIES",
     url: "http://listen.radiogora.ru:8000/oldies128",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
@@ -142,7 +101,7 @@ export const potok = [
   {
     id: "62ba0c283ca1f692853ebef0",
     like: false,
-    name: "Radio REDNOISE www.radiogora.ru",
+    name: "Radio REDNOISE",
     url: "http://listen.radiogora.ru:8000/rednoise128",
     img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
   },
@@ -180,7 +139,7 @@ export const potok = [
     like: false,
     name: "Yum FM",
     url: "http://yumfm.hostingradio.ru:8020/yumfm128.mp3",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
+    img: "https://i.ytimg.com/vi/KyXNsJOXva8/maxresdefault.jpg",
   },
 
   {
@@ -217,7 +176,7 @@ export const potok = [
     like: false,
     name: "Europa Plus",
     url: "http://ep256.hostingradio.ru:8052/europaplus256.mp3",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
+    img: "https://mirokru.ru/wp-content/uploads/2021/09/europa-plus.jpg",
   },
 
   {
@@ -225,7 +184,7 @@ export const potok = [
     like: false,
     name: "Fresh FM",
     url: "http://a2.radioheart.ru:8007/live",
-    img: "https://freelanceri.ru/wp-content/uploads/2019/12/logo-1.png",
+    img: "https://static-media.streema.com/media/cache/40/d6/40d681235a822773d851a1886c39ada8.jpg",
   },
   {
     id: "62ba0c283ca1f692853ebfc8",

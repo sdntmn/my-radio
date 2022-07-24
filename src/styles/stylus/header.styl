@@ -1,13 +1,30 @@
 .header
-  margin: 0 auto;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr
+  align-items: center
+  justify-items: center;
+
+
+
   grid-area: header;
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.2), 0 0 0 1px #00adb08d,
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.2), 0 0 0 1px var(--boxShadow),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 
 
+  &__settings-icon
+    position: absolute;
+    top: center;
+    right: 30px;
+    fill: var(--white);
+    width: 60px
+    stroke: var(--white);
+    stroke-width: 10
+
+
+
 .logo
+
   margin-right: 10px;
   margin-left: 8px;
   margin-top: 4px;

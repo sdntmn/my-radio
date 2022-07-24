@@ -1,25 +1,25 @@
 import React, { useEffect } from "react";
 
-const AudioPlayer = ({
+const RadioPlayer = ({
   name,
   img,
   tracksId,
-  listFavorites,
+  listFavoriteId,
   addFavorite,
   isLike,
   setLike,
   addDataId,
   handleCardDelete,
-  handleIndexDelete,
   tracks,
 }) => {
   // есть id в списке избранное
   useEffect(() => {
+    const listFavoritesLet = listFavoriteId || [];
     function favorite() {
-      return listFavorites.includes(tracksId) || false;
+      return listFavoritesLet?.includes(tracksId);
     }
     setLike(favorite);
-  }, [listFavorites, setLike, tracksId]);
+  }, [listFavoriteId, setLike, tracksId]);
 
   const cardStyleFavorite = ` ${
     tracks.like || isLike
@@ -27,12 +27,16 @@ const AudioPlayer = ({
       : "card__button-is-notFavorite"
   }`;
 
+  const listFavoritesLet = listFavoriteId || [];
+  function favorite() {
+    return listFavoritesLet?.includes(tracksId);
+  }
+
   const onClick = () => {
-    const likes = listFavorites.includes(tracksId);
-    setLike(likes);
+    setLike(favorite);
     if (!isLike) {
       setLike(!tracks.like);
-      addFavorite([...listFavorites, tracksId]);
+      addFavorite([...listFavoriteId, tracksId]);
       addDataId(tracksId);
     } else {
       setLike(!tracks.like);
@@ -60,4 +64,4 @@ const AudioPlayer = ({
   );
 };
 
-export default AudioPlayer;
+export default RadioPlayer;

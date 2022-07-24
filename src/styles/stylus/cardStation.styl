@@ -1,21 +1,27 @@
-@import "variables"
-
-
 .card
   margin: 4px 10px;
   text-align: center;
-  box-shadow: inset 0 -1em 1em rgba(0, 0, 0, 0.2), 0 0 0 1px $colorPrimery ,
-    0.1em 0.1em 0.1em rgba(0, 0, 0, 0.3);
-  outline: 1px solid $colorPrimery;
+  box-shadow: inset 0 -1em 1em rgba(0, 0, 0, 0.2), 0 0 0 1px var(--colorPrimary) ,
+    0.1em 0.1em 0.1em rgba(0, 0, 0, 0.2);
+  outline: 1px solid var(--boxShadow);
   border-radius: 4px;
   position: relative;
-  overflow: hidden;
   transition: 0.5s;
-  max-width: 267px;
+  max-width: 288px;
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr
+  direction: ltr;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+  &:hover
+      transform: scale(0.98);
 
 
   &__link-wrap
+    margin: 0 20px 0 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -23,17 +29,15 @@
     direction: ltr;
 
   &__link
+    margin: 0;
     direction: ltr;
     display: flex;
     flex-direction: row;
     padding: 0;
-    margin: 0;
     max-height: max-content;
-    overflow: hidden;
-    margin-right: 10px;
-    justify-content: flex-start
+    justify-content: flex-start;
     text-decoration: none;
-    width: 100%;
+    max-width: 60%;
 
   &__link-img
     direction: ltr;
@@ -41,67 +45,71 @@
     margin: 0;
     max-height: 100%;
     overflow: hidden;
-    margin-right: 10px;
     text-decoration: none;
-    width: 36%;
-
-  &__button-delete
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
-    background: transparent url("../../images/delete-icon.svg") no-repeat;
-    background-size: 14px 14px;
-    border: none;
-    min-height: 14px;
-    color: #d7d7d7;
-    cursor: pointer;
-
-  &__button-is-favorite-size
-    position: absolute;
-    right: 15px;
-    bottom: 15px;
-    background: transparent url("../../images/favorite.svg") no-repeat;
-    background-size: 24px 24px;
-    border: none;
-    min-height: 24px;
-    width: 24px;
-    color: $colorLike;
-    transition: 0.5s;
-    cursor: pointer;
-
-  &__button-is-notFavorite
-    position: absolute;
-    right: 15px;
-    bottom: 15px;
-    background: transparent url("../../images/Vector.svg") no-repeat;
-    background-size: 24px 24px;
-    border: none;
-    min-height: 24px;
-    width: 24px;
-    color: $colorLike;
-    transition: 0.5s;
-    cursor: pointer;
+    max-width: 66px;
+    width: 100%;
 
   &__img
-    display: inline-block;
-    margin-right: 10px;
-    margin-left: 8px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin: 8px;
     width: 48px;
     height: 48px;
     border-radius: 24px;
 
   &__title
-    display: inline-block;
     margin: 0;
-    margin-right: 10px;
+    padding: 0;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-    color: #fff;
+    color: var(--white);
     max-height: max-content;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     text-decoration: none;
+
+  &__button-delete
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: transparent url("../../../images/delete-icon.svg") no-repeat;
+    background-size: 14px 14px;
+    border: none;
+    min-height: 14px;
+    color: var(--buttonDelete);
+    cursor: pointer;
+
+    &:hover
+      transform: scale(1.2);
+
+  &__button-is-favorite-size
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    background: transparent url("../../../images/favorite.svg") no-repeat;
+    background-size: 24px 24px;
+    border: none;
+    min-height: 24px;
+    width: 24px;
+    color: var(--colorLike);
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover
+      transform: scale(1.2);
+
+  &__button-is-notFavorite
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    background: transparent url("../../../images/Vector.svg") no-repeat;
+    background-size: 24px 24px;
+    border: none;
+    min-height: 24px;
+    width: 24px;
+    color: var(--colorLike);
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover
+      transform: scale(1.2);

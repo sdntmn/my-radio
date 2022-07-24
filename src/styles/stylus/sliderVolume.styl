@@ -3,7 +3,7 @@ input[type="range"],
 ::-moz-range-thumb,
 ::-ms-thumb {
   -webkit-appearance: none;
-  background-color: #00aeb0;
+  background-color: var(--sliderVolume__InputBg);
   width: 10px;
   height: 20px;
 }
@@ -25,7 +25,7 @@ input[type="range"],
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
-    box-shadow: inset 0px 2px 2px -2px #242625, 0 3px 3px 1px #00adb08d,
+    box-shadow: inset 0px 2px 2px -2px #2426, 0 3px 3px 1px var(--boxShadow),
     0em 3px 1em rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 
@@ -70,8 +70,8 @@ input[type="range"],
 
     border: 0;
     border-radius: 5px;
-    box-shadow: 0em 0em 0.5em #00adb08d inset, 0 -0.2em 0.2em 0 rgba(0, 0, 0, 0.2),
-    1px 1px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0em 0em 0.5em var(--boxShadow) inset, 0 -0.2em 0.2em 0 rgba(0, 0, 0, 0.1),
+    1px 1px 10px rgba(0, 0, 0, 0.5);
 
 
 .range
@@ -82,7 +82,7 @@ input[type="range"],
 
   &__tick
     display: inline-block;
-    color: #454954;
+    color: var(--sliderVolume__tickColor);
     font-size: 0.5em;
     text-align: center;
     width: 0;
