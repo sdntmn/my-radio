@@ -13,7 +13,7 @@ gulp.task("styl", function () {
     .pipe(stylus())
     .pipe(autoprefixer())
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest("src/styles/stylus/dist/"))
+    .pipe(gulp.dest("src/styles/css/"))
     .pipe(livereload());
 });
 

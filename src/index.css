@@ -1,17 +1,17 @@
 @import url("./vendor/normalize.css");
 
-@import url("./styles/stylus/dist/audioControls.css");
-@import url("./styles/stylus/dist/cardStation.css");
-@import url("./styles/stylus/dist/header.css");
-@import url("./styles/stylus/dist/volumeRange.css");
-@import url("./styles/stylus/dist/main.css");
-@import url("./styles/stylus/dist/popup.css");
-@import url("./styles/stylus/dist/radioList.css");
-@import url("./styles/stylus/dist/radioPlayer.css");
-@import url("./styles/stylus/dist/favorites.css");
-@import url("./styles/stylus/dist/footer.css");
-@import url("./styles/stylus/dist/sliderVolume.css");
-@import url("./styles/stylus/dist/themeApp.css");
+@import url("./styles/dist/audioControls.css");
+@import url("./styles/dist/cardStation.css");
+@import url("./styles/dist/header.css");
+@import url("./styles/dist/volumeRange.css");
+@import url("./styles/dist/main.css");
+@import url("./styles/dist/popup.css");
+@import url("./styles/dist/radioList.css");
+@import url("./styles/dist/radioPlayer.css");
+@import url("./styles/dist/favorites.css");
+@import url("./styles/dist/footer.css");
+@import url("./styles/dist/sliderVolume.css");
+@import url("./styles/dist/themeApp.css");
 
-@import url("./styles/stylus/dist//general.css");
-@import url("./styles/stylus/dist/variables.css");
+@import url("./styles/dist/general.css");
+@import url("./styles/dist/variables.css");
