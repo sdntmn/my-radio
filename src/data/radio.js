@@ -120,11 +120,6 @@ export const radioPotok = [
     "url": "http://radio.bignoise.club:8000/nonstop"
   },
   {
-    "id": "62ba0c283ca1f692853ebe93",
-    "name": "Bigtunesradio - trance",
-    "url": "http://bigtunesradio.com:8000/trance.mp3?type=.mp3/;stream.mp3"
-  },
-  {
     "id": "62ba0c283ca1f692853ebe94",
     "name": "Bim radio",
     "url": "http://av.bimradio.ru:8066/bim_mp3"
