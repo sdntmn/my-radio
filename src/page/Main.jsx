@@ -124,8 +124,8 @@ function Main({ tracks }) {
 
   // Для первоначальной загрузки и обработки данных из localStorage
   useEffect(() => {
-    const lengthFavoriteId = Object.keys(listFavoriteId).length;
-    const lengthDataListFavorite = Object.keys(isDataListFavorite).length;
+    const lengthFavoriteId = Object?.keys(listFavoriteId)?.length;
+    const lengthDataListFavorite = Object?.keys(isDataListFavorite)?.length;
     if (lengthFavoriteId !== lengthDataListFavorite) {
       for (let i = 0; i < lengthFavoriteId; i++) {
         for (let elem of tracks) {
